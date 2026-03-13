@@ -1,0 +1,16 @@
+{
+  "run_id": "20260313_003220",
+  "job_index": 0,
+  "model_id": "Qwen/Qwen3.5-4B",
+  "device": "cuda:0",
+  "dataset_size": 8000,
+  "num_epochs": 2,
+  "files": {
+    "train_result_json": "outputs/train_logs/4b/train_result_20260313_003220.json",
+    "metrics_csv": "outputs/train_logs/4b/metrics_by_epoch_20260313_003220.csv",
+    "global_summary_csv": "outputs/train_logs/4b/all_runs_summary.csv",
+    "loss_curve_png": "outputs/train_logs/4b/loss_curve_20260313_003220.png",
+    "resume_state": "outputs/train_logs/4b/train_state_20260313_003220.pt",
+    "latest_resume_state": "outputs/train_logs/4b/latest_train_state_4b.pt"
+  }
+}

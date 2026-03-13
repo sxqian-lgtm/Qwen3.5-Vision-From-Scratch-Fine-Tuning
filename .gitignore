@@ -1,0 +1,32 @@
+# Dataset/model artifacts
+vision_text_ds
+vision_text.pt
+checkpoints/
+Vision08B/
+OLDER/
+
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+*tar.gz
+
+# Python cache
+**/__pycache__/
+*.py[cod]
+
+# Jupyter
+**/.ipynb_checkpoints/
+
+# Always keep project notebooks/docs tracked
+!*.ipynb
+!LICENSE*
+!README*
+
+# Keep visualization assets trackable
+!*.png
+!*.jpg
+!*.jpeg
+!*.gif
+!*.webp
