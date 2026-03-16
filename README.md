@@ -46,7 +46,10 @@ The figure below shows the training loss across optimization steps during LoRA f
 
 The loss decreases rapidly during the early training steps and gradually stabilizes afterward, indicating effective adaptation of the model to the OCR-style image-to-text task. The loss curve shown here is plotted from an early-stage training run using a subset of the dataset for visualization purposes.
 
-![Training Loss Curve](/outputs/train_logs/4b/loss_curve_20260313_043636.png)
+
+![Loss Curve](/outputs/train_logs/4b/loss_curve.png)
+![Accuracy Curve](/outputs/train_logs/4b/accuracy_curve.png)
+
 
 
 Base model:
